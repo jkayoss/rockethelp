@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "rockethelp",
+    "slug": "rockethelp",
+    "icon": "./src/assets/adaptive_icon.png",
+    "version": "1.0.0",
+    "owner": "jkayoss",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive_icon.png",
+        "backgroundColor": "#19191B"
+      },
+      "package": "com.jkayoss.rockethelp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "splash": {
+      "image": "./src/assets/adaptive_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#19191B"
+    }
+  }
+}
